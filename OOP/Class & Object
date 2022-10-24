@@ -4,10 +4,10 @@ Object: Class Members can be accessed by an Object, it is a reference of a Class
 
 # Syntax:
 class class_name:
-    data1...                -> Attributes (Instance variables, defined outside the function)
+    data1...                -> Attributes (Class variables, shared by all instances of the class)
     data2...
     def function1(self):    -> Methods, 'self' is an implicit reference
-        ...
+        self.var1           -> Instance variable, unique to each instance of the class
     def function2(self):
         ...
 
