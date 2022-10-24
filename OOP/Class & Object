@@ -1,0 +1,33 @@
+Class : Class is a block of code which contains data(attribute) and functions(method), these are called Class Members.
+
+Object: Class Members can be accessed by an Object, it is a reference of a Class.
+
+# Syntax:
+class class_name:
+    data1...                -> Attributes (Instance variables, defined outside the function)
+    data2...
+    def function1(self):    -> Methods, 'self' is an implicit reference
+        ...
+    def function2(self):
+        ...
+
+obj1 = class_name()         -> Object instantiation
+obj2 = class_name()
+
+obj1.data1                  -> Accessing Class members
+obj1.function1()
+obj2.data1
+obj2.function1()
+class_name.data2
+class_name.function2()
+
+
+# Example:
+Student Class                       class student:
+    RNo                                 Rno = 123
+    Name        Data                    Name = "Ram"
+    Branch                              Branch = "CSE"
+                                        def read(self):
+    read()                                  print("Reading")
+    write()     Functions               def write(self):
+                                            print("Writing")
