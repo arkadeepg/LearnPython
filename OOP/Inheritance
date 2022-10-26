@@ -6,7 +6,8 @@ Base/ Parent Class -> Derived/ Child Class
         |                       |
       object                  object
 
-Child Class can acquire properties of Parent class. Objects of Derived Class can access variables and methods of Base Class.
+Child Class can acquire properties of Parent Class.
+Objects of Derived Class can access variables and methods of Base Class. Objects of Base Class cannot access members of Derived Class.
 
 
 # Single Inheritance: 1 Base Class and 1 Derived Class
