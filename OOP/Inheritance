@@ -47,3 +47,55 @@ c1 = Child()
 c1.gdisplay()
 c1.pdisplay()
 c1.cdisplay()
+
+
+# Hierarchical Inheritance: 1 Base Class and multiple Derived Class
+
+Base Class   ->   Derived Class 1
+             ->   Derived Class 2
+             xxxxxxxxxxxxxxxxxxxxxxxxxx
+
+class Parent():                 # Base Class
+    def pdisplay(self):
+        print("PARENT")
+
+class Child1(Parent):           # Derived Class of Parent
+    def c1display(self):
+        print("CHILD1")
+
+class Child2(Parent):           # Derived Class of Parent
+    def c2display(self):
+        print(CHILD2)
+
+c1 = Child1()                   # Object of 1st Derived Class, can access members of Base and 1st Derived Class
+c2 = Child2()                   # Object of 2nd Derived Class, can access members of Base and 2nd Derived Class
+
+c1.pdisplay()
+c1.c1display()
+c2.pdisplay()
+c2.c2display()
+
+
+# Multiple Inheritance: multiple Base class and one Derived Class
+
+Base Class 1    ->    Derived Class
+Base Class 2
+             xxxxxxxxxxxxxxxxxxxxxxxxxx
+
+class father():                         # Base Class 1
+    def fdisplay(self):
+        print("Father Class")
+
+class mother():                         # Base Class 2
+    def mdisplay(self):
+        print("Mother Class")
+
+class child(father,mother):             # Derived Class from Base Class 1 and 2
+    def cdisplay(self):
+        print("Child Class")
+
+c1 = child()
+
+c1.fdisplay()
+c1.mdisplay()
+c1.cdisplay()
