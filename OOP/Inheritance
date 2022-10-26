@@ -1,0 +1,48 @@
+# Inheritance: acquiring the properties
+
+Base/ Parent Class -> Derived/ Child Class
+    variables               variables
+    methods                 methods
+        |                       |
+      object                  object
+
+Child Class can acquire properties of Parent class. Objects of Derived Class can access variables and methods of Base Class.
+
+
+# Single Inheritance: 1 Base Class and 1 Derived Class
+
+class Parent:                   # Base Class
+    var1 = None
+    def display(self):
+        print("PARENT")
+
+class Child(Parent):            # Derived Class Inherited from Base Class
+    var2 = None
+    def show(self):
+        print ("CHILD")
+
+obj1 = Child()
+
+obj1.show()
+obj1.display()
+
+
+# Multi-level Inheritance: more than 1 Base and Derived Class. eg: Grandparent, Parent, Child
+
+class Grandparent:                  # Base Class of Parent
+    def gdisplay(self):
+        print("Grandparent")
+
+class Parent(Grandparent):          # Base Class of Child, Derived Class of Grandparent
+    def pdisplay(self):
+        print("Parent")
+
+class Child(Parent):                # Derived Class of Parent
+    def cdisplay(self):
+        print("Child")
+
+c1 = Child()
+
+c1.gdisplay()
+c1.pdisplay()
+c1.cdisplay()
