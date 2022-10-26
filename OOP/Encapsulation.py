@@ -34,5 +34,5 @@ def car_op():                                           # Function to access Cla
 def car_call():
     car_op()                                            # Function calling another function in the program, Function must be defined beforehand (Calling Function)
 
-# Function Calling
+# Function Calling/ Invoking
 car_call()                                              # Calling first function
