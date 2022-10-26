@@ -1,0 +1,18 @@
+Encapsulation: wrapping-up of data. Combining Variables/ Attributes and Methods in a single place, which is achieved by restricting the scope of Class members.
+               Scope restriction is done by access specifies: public(default) & private.
+                                                              attr              __attr (double-underscore)
+
+# Syntax
+
+class class_name:
+    attr = None                # default Public attribute
+    def method(self):          # default Public method
+        print()
+
+class class_name:
+    __attr = None              # Private attribute
+    def __method(self)         # Private method
+        print()
+
+obj = class_name()
+
