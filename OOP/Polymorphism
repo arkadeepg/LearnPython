@@ -1,0 +1,13 @@
+Polymorphism: implementing same function for multiple task, enable re-usability.
+
+Overloading:
+Operator Overloading: multiple function by same operator
+
+'+' -> concatenation in Sting
+    -> addition in Integer
+
+Method Overloading: same function for different arguments
+
+add() -> add(5,10), add(3,7), add(5,9,11)
+
+Overriding:
