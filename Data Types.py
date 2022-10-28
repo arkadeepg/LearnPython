@@ -9,7 +9,7 @@ y = False                               #bool
 list1 = [1, 2, 'l', "list"]             #list[]
 tuple1 = (1, 2, 't', "tuple")           #tuple()
 set1 = {1, 2, 's', "set"}               #set{}
-dict1 = {"sub1" : 11, "sub2" : 22}      #dictionary
+dict1 = {"sub1": 11, "sub2": 22}        #dictionary
 
 # Creating a List
 List = []
