@@ -3,7 +3,7 @@ Abstraction: hiding unnecessary information from user.
 Abstract Class: it contains Abstract Methods. Objects can't be instantiated.
 Abstract Methods: method with only declaration not definition.
 
-Concrete Class: Class without any Abstract Method. Objects can be instantiated. All methods must be declared in a single Concrete Class.
+Concrete Class: Class without any Abstract Method. Objects can be instantiated. All Abstract Methods must be declared in a single Concrete Class.
 
 Abstract Class      ->      Concrete Class (inherited from Abstract Class)
 A1()                            define all the abstract methods
