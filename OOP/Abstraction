@@ -1,0 +1,40 @@
+Abstraction: hiding unnecessary information from user.
+
+Abstract Class: it contains Abstract Methods. Objects can't be instantiated.
+Abstract Methods: method with only declaration not definition.
+
+Concrete Class: Class without any Abstract Method. Objects can be instantiated. All methods must be declared in a single Concrete Class.
+
+Abstract Class      ->      Concrete Class (inherited from Abstract Class)
+A1()                            define all the abstract methods
+A2()                              from abstract class
+methods not defined
+
+
+module abc
+ABS                 -> (Abstract Base Class)
+abstractmethod      -> decorator to define Abstract Method
+
+
+# Syntax
+
+from abc import ABC, abstractmethod
+
+class class1(ABC):              # Abstract Class
+    @abstractmethod             # decorator to create Abstract Method
+    def method1():              # Abstract Method 1, only declared not defined
+        pass
+
+    @abstractmethod             # Abstract Method 2
+    def method2():
+        pass
+
+class class2(class1)            # Concrete Class, inherited from an Abstract Class.
+    def method1():              # define Abstract Method in Concrete Class
+        func1()
+        func2()
+
+    def method2():
+        func3()
+
+obj = class2()                  # Objects can be created only for Concrete Class
