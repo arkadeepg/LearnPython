@@ -20,7 +20,7 @@ if second > highest:
     else:
         highest = third
 elif third > highest:
-    if third > second:
-        highest = third
+    # if third > second:
+    highest = third
 
-print("Highest number is " + str(highest) + ".")
+print("Highest number is ", highest, '.')
