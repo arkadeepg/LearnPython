@@ -1,4 +1,4 @@
-Return the count of a given substring from a string:
+# Return the count of a given substring from a string:
 
 str_x = "Emma is good developer. Emma is a writer"
 sub_str = "Emma"
@@ -14,8 +14,7 @@ def substring(str1, str2):
 substring(str_x, sub_str)
 
 ###################################################################################
-
-Remove first n characters from a string:
+# Remove first n characters from a string:
 
 def remove_chars(str1, n):
     str1 = str1[n:]
@@ -24,13 +23,12 @@ def remove_chars(str1, n):
 remove_chars("pynative", 2)
 
 ###################################################################################
-
-Print the following pattern:
-1 
-2 2 
-3 3 3 
-4 4 4 4 
-5 5 5 5 5
+# Print the following pattern:
+# 1 
+# 2 2 
+# 3 3 3 
+# 4 4 4 4 
+# 5 5 5 5 5
 
 for i in range(1,6):
     for j in range(i):
@@ -38,8 +36,7 @@ for i in range(1,6):
     print()
 
 ###################################################################################
-
-write a program to create a new list such that the new list should contain odd numbers from the first list and even numbers from the second list.
+# write a program to create a new list such that the new list should contain odd numbers from the first list and even numbers from the second list.
 
 list1 = [10, 20, 25, 30, 35]
 list2 = [40, 45, 60, 75, 90]
@@ -61,8 +58,7 @@ def list_op(l1, l2):
 list_op(list1, list2)
 
 ###################################################################################
-
-Write a Program to extract each digit from an integer in the reverse order, with a space separating the digits.
+# Write a Program to extract each digit from an integer in the reverse order, with a space separating the digits.
 
 num = int(input("Provide your number: "))
 
