@@ -98,3 +98,8 @@ file.close()
 # even.close()
 
 #############################################################################
+# Read text file into a variable and replace all newlines with space
+
+# with open('sample.txt', 'r') as file:
+#     data = file.read().replace('\n', ' ')
+#     print(data)
