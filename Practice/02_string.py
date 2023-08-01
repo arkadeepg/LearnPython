@@ -1,4 +1,4 @@
-Find words with both alphabets and numbers
+# Find words with both alphabets and numbers
 
 str1 = "Emma25 is Data scientist50 and AI 50 Expert"
 
@@ -12,8 +12,7 @@ for i in str2:
 print(list1)                
 
 ###########################################################################
-
-Remove special symbols / punctuation from a string
+# Remove special symbols / punctuation from a string
 
 str1 = "/*Jon is @developer & musician 2"
 str2 = ""
@@ -30,7 +29,7 @@ print(str2)
 
 ##########################################################################
 
-Find the last position of a given substring
+# Find the last position of a given substring
 
 str1 = "Emma is a data scientist who knows Python. Emma works at google."
 
@@ -39,8 +38,7 @@ index = str1.rfind("Emma")
 print(index)
 
 #########################################################################
-
-Write a program to count occurrences of all characters within a string
+# Write a program to count occurrences of all characters within a string
 
 str1 = "Apple"
 
@@ -53,8 +51,7 @@ for i in str1:
 print(str2)   
 
 #########################################################################
-
-Append new string in the middle of a given string
+# Append new string in the middle of a given string
 
 s1 = "Ault"
 s2 = "Kelly"
@@ -69,8 +66,7 @@ s1 = s1[0:i]
 print(s1 + s2 + temp) 
 
 ########################################################################
-
-Replace each special symbol with # in the following string
+# Replace each special symbol with # in the following string
 
 str1 = "/*Jon is @developer & musician 2"
 str2 = ""
@@ -86,8 +82,7 @@ for i in str1:
 print(str2) 
 
 #########################################################################
-
-Find all occurrences of a substring in a given string by ignoring the case
+# Find all occurrences of a substring in a given string by ignoring the case
 
 str1 = "Welcome to USA. usa awesome, isn't it?"
 sub_string = "USA"
