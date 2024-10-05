@@ -12,6 +12,7 @@ print(str1)
 str1 = str1.replace("third", '.')
 print(str1)
 
-n = len(str1)
-for i in range(n):
-    print(i)
+# String traversal
+
+for i in str1:
+    print(i, end='')
